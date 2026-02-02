@@ -61,3 +61,65 @@
 // btn1.style.marginRight ="10px";
 // btn1.style.borderRadius ="5px";
 
+//query selector
+// const btn = document.querySelector('Button');
+// console.log(btn);
+
+//event trigger
+// function GantiWarna() {
+//     console .log ("halo bg");
+// } 
+
+// function GantiWarna() {
+//     console .log ("halo bg");
+//     alert ("halo bg");
+// } 
+
+// function GantiWarna() {
+//     btn2.style.backgroundColor = "white";
+// }
+
+// //mouse event
+// function UbahTeks() {
+//     // console.log("Teks tombol diubah");
+//     btn1.textContent = "Teks telah diubah!";   
+// }
+
+// function KembalikanTeks() {
+//     btn1.textContent = "Tombol 1";   
+// }
+
+// // tugas tambahan
+//  function MunculTeks() {
+//     const newTeks = document.createElement('p');
+//     newTeks.textContent = "Halo, selamat datang di halaman ini!";
+//     document.body.appendChild(newTeks);
+// }
+// function GantiWarnaTeks() {
+//     const paragraf = document.querySelector('p');
+//     paragraf.style.color = "blue";
+// }
+//INI ADALAH TUGAS JIKA CURSOR DIARAHKAN KE TOMBOL AKAN MEMUNCULKAN SEBBUAH TEKS JIKA CURSOR DIKELUARKAN TEKS AKAN BERUBAH WARNA
+
+//ARRAY\\
+// const arrayBuah = ["apel", "jeruk", "mangga", "pisang"];
+
+// const jeruk = arrayBuah.includes("jeruk"); //includes untuk mengecek ada tidaknya sebuah nilai di dalam array
+// const PosisiJeruk = arrayBuah.indexOf("jeruk"); //indexOf untuk mengetahui posisi index sebuah nilai di dalam array
+
+// if (jeruk) {
+//     console.log(`buah jeruk ada di dalam array pada posisi index ke-${PosisiJeruk}`);
+//     const before = PosisiJeruk - 1;// mencari posisi sebelum jeruk
+//     const after = PosisiJeruk + 1;// mencari posisi setelah jeruk
+//     const buahBefore = arrayBuah[before];// mendapatkan nilai sebelum jeruk
+//     const buahAfter = arrayBuah[after];// mendapatkan nilai setelah jeruk
+//     console.log(`buah sebelum jeruk adalah ${buahBefore}`);
+//     console.log(`buah setelah jeruk adalah ${buahAfter}`);
+//     const buahawal = arrayBuah .shift(); //shift untuk menghapus nilai pertama di dalam array
+//     console.log(`buah yang dihapus dari awal adalah ${buahawal}`);
+//     const buahakhir = arrayBuah .pop(); //pop untuk menghapus nilai terakhir di dalam array
+//     console.log(`buah yang dihapus dari akhir adalah ${buahakhir}`);
+
+// } else {
+//     console.log("buah jeruk tidak ada di dalam array");
+// }
